@@ -30,7 +30,7 @@ mean = sum(NumList) / len(NumList)
 median = statistics.median(NumList)
 
 ''' clear algorithm for calculate median 
-In this point my opinion is don't waste to time find list length is odd or even
+In this point my opinion is don't waste  time to find list length is odd or even
     
     l = int((len(num)-1)/2)
     u = int(len(num)/2)
