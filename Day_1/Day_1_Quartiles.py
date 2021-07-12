@@ -33,16 +33,16 @@ def quartiles(arr):
     
     #for length = even number arrays
     if length % 2 ==0:
-        lowupper = int(length/2)
-        LowArr = arr[0:lowupper]
-        HighArr = arr[lowupper:length]
+        first_quartileArray_upperLimit = int(length/2)
+        LowArr = arr[0:first_quartileArray_upperLimit]
+        HighArr = arr[first_quartileArray_upperLimit:length]
         first_qrt = findmedian(LowArr)
         third_qrt = findmedian(HighArr)
     #for length = odd number array
     else:
-        lowupper = int(length/2)
-        LowArr = arr[0:lowupper]
-        HighArr = arr[lowupper+1:length]
+        first_quartileArray_upperLimit = int(length/2)
+        LowArr = arr[0:first_quartileArray_upperLimit]
+        HighArr = arr[first_quartileArray_upperLimit+1:length]
         first_qrt = findmedian(LowArr)
         third_qrt = findmedian(HighArr)
     ans.append(first_qrt)
