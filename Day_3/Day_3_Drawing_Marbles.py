@@ -1,0 +1,1 @@
+since already 1 ball is choosen, there are six balls left. We need to pick up the blue ball, where there are 4 blue coloured balls. The probabilty is 4/6 = 2/3
