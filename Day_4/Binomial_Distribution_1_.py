@@ -11,6 +11,7 @@ family = {3 boys, 4 boys, 5 boys, 6 boys}
 
 '''
 
+#this function generate and return factorial value of given number.
 def factorial(n):
     fact =1
     for i in range(n):
